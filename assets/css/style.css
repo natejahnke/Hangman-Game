@@ -1,0 +1,35 @@
+  body {
+      background-image: url("../images/background.jpg");
+  }
+  
+  .container {
+      width: 50%;
+      margin: 200px 700px;
+  }
+  
+  h1 {
+      font-size: 45px;
+      font-family: 'American Typewriter Bold';
+  }
+  
+  div {
+      font-family: 'American Typewriter Light';
+  }
+  
+  .largerFont {
+      font-size: 20px;
+  }
+  
+  @font-face {
+      font-family: 'American Typewriter Bold';
+      font-style: normal;
+      font-weight: normal;
+      src: local('American Typewriter Bold'), url('ufonts.com_american-typewriter-bold.woff') format('woff');
+  }
+  
+  @font-face {
+      font-family: 'American Typewriter Light';
+      font-style: normal;
+      font-weight: normal;
+      src: local('American Typewriter Light'), url('ufonts.com_american-typewriter-light.woff') format('woff');
+  }

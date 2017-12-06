@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <title>Hangman</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 <script src="assets/javascript/game.js"></script>
 
 
 <body>
-    <h1>Hangman</h1>
-    <div>
-        Press any ket to get started!
-    </div>
-    <br>
-    <div>
-        Wins:
-        <span id="winBox"></span>
-    </div>
-    <div>
-        <b>Current Word: </b>
-        <span id="currentWord"></span>
+    <div class="container">
+        <h1>Hangman</h1>
+        <h2>the office themed hangman featuring <br>people, places and things from the tv show.</h2>
+        <div>
+            Press any ket to get started!
+        </div>
         <br>
-    </div>
-    <div>
-        Losses:
-        <span id="lossBox"></span>
-    </div>
-    <div>
-        Guesses Left:
-        <span id="remainingGuess"></span>
-    </div>
-    <div>
-        Your Guesses so far:
-        <span id="guess"></span>
+        <div class="largerFont">
+            Current Word:
+            <span id="currentWord"></span>
+            <br>
+        </div>
+        <div>
+            Wins:
+            <span id="winBox"></span>
+        </div>
+        <div>
+            Losses:
+            <span id="lossBox"></span>
+        </div>
+        <div>
+            Guesses Left:
+            <span id="remainingGuess"></span>
+        </div>
+        <div>
+            Your Guesses so far:
+            <span id="guess"></span>
+        </div>
     </div>
 
 

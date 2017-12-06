@@ -67,7 +67,7 @@ document.onkeyup = function(event) {
         clearBox("guess");
         clearBox("currentWord");
         randomizeWord();
-        guessesLeft = 15;
+        guessesLeft = 10;
 
     } else if (displayArray.includes("_")) {
         guessesLeft -= 1;
@@ -81,7 +81,7 @@ document.onkeyup = function(event) {
         clearBox("guess");
         clearBox("currentWord");
         randomizeWord();
-        guessesLeft = 15;
+        guessesLeft = 10;
     }
 
 }

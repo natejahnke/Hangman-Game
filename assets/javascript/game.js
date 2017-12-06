@@ -1,7 +1,7 @@
 var wins = 0;
 var losses = 0;
 var wordBank = ["scranton", "dwight", "michael", "jim", "creed", "pam", "dunder mifflin", "paper", "scuttlebutt"];
-var guessesLeft = 15;
+var guessesLeft = 10;
 var guessedLetter;
 var gussedLetterArray = new Array();
 var winningWord;
